@@ -1,5 +1,5 @@
 set :rails_env, :staging_vn
-set :user, 'zigexn'
+set :user, 'abc'
 ask :branch, 'master'
 
 server '192.168.1.57', user: 'abc', roles: %w{docker}
